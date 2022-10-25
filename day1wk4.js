@@ -72,18 +72,26 @@
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 
-'Django Unchained', 'Cloud Atlas', 'The Usual Suspects',
- 'Toy Story', 'Conan the Barbarian', 'Titanic',
-  'Harry Potter', 'Fried Green Tomatoes', 'Volver'
-  , 'Oculus', 'Seven', 'Black Panther', 'Harry Potter'
-  , 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 
+// 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects',
+//  'Toy Story', 'Conan the Barbarian', 'Titanic',
+//   'Harry Potter', 'Fried Green Tomatoes', 'Volver'
+//   , 'Oculus', 'Seven', 'Black Panther', 'Harry Potter'
+//   , 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
-  console.log(favMovies[8])
-  console.log(favMovies.length-1)
+//   console.log(favMovies[8])
+//   console.log(favMovies.length-1)
+
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+whereIsWaldo.splice(1,1)
+console.log(whereIsWaldo)
+
+console.log(whereIsWaldo[2])
 
 
 ////////////////////////////////
